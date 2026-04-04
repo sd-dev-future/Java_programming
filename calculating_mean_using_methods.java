@@ -1,3 +1,10 @@
+// problem:
+// Write a Java program that runs iteratively to read three (3) real values and display 
+// the mean value of them. Additionally users are allowed to decide the termination point by typing “Exit”. 
+// Note: The class should have a separate method to calculate the mean value once three 
+// real values are given.
+
+
 // import scanner object to get user input
 import java.util.Scanner;
 // method to calculate mean
