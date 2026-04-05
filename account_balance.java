@@ -9,7 +9,7 @@
 //	No addition for the accounts having balances less than 10,000 Rupees.
 
 
-
+// get scanner object
 import java.util.Scanner;
 public class account_balance {
     public static double calculateBalance(double balance){
@@ -28,13 +28,15 @@ public class account_balance {
 
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-
+        
+        // get user input
         System.out.print("Enter account balance: ");
         double balance=sc.nextDouble();
 
         // call the method
         double updatedBalance=calculateBalance(balance);
 
+        // print the updated balance
         System.out.print("Updated balance: "+updatedBalance);
 
         sc.close();
