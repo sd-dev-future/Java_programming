@@ -26,3 +26,10 @@ public class usage_of_Strings_example_1 {
         System.out.println(result);
     }
 }
+
+
+// sample output:
+// Fast
+// and
+// Furious
+// FAST AND FURIOUS
